@@ -1,0 +1,463 @@
+{
+  "title": "Gestione delle spese di trasferta",
+  "description": "Dashboard per registrare e filtrare le spese di trasferta, consultare i totali mensili e confrontare le categorie.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Andamento delle spese per mese e categoria, con una panoramica dei dati registrati.",
+      "metrics": [
+        {
+          "label": "Spesa del mese",
+          "value": "1.284 €"
+        },
+        {
+          "label": "Spesa complessiva",
+          "value": "4.736 €"
+        },
+        {
+          "label": "Trasferte registrate",
+          "value": "18"
+        },
+        {
+          "label": "Categoria principale",
+          "value": "Trasporti"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Categoria",
+        "Importo totale",
+        "Numero spese"
+      ],
+      "rows": [
+        [
+          "Gennaio 2025",
+          "Trasporti",
+          "428 €",
+          "6"
+        ],
+        [
+          "Gennaio 2025",
+          "Alloggio",
+          "365 €",
+          "2"
+        ],
+        [
+          "Gennaio 2025",
+          "Pasti",
+          "184 €",
+          "5"
+        ],
+        [
+          "Gennaio 2025",
+          "Altre spese",
+          "92 €",
+          "2"
+        ],
+        [
+          "Febbraio 2025",
+          "Trasporti",
+          "512 €",
+          "7"
+        ],
+        [
+          "Febbraio 2025",
+          "Alloggio",
+          "438 €",
+          "3"
+        ],
+        [
+          "Febbraio 2025",
+          "Pasti",
+          "216 €",
+          "6"
+        ],
+        [
+          "Febbraio 2025",
+          "Altre spese",
+          "108 €",
+          "2"
+        ],
+        [
+          "Marzo 2025",
+          "Trasporti",
+          "396 €",
+          "5"
+        ],
+        [
+          "Marzo 2025",
+          "Alloggio",
+          "328 €",
+          "2"
+        ],
+        [
+          "Marzo 2025",
+          "Pasti",
+          "172 €",
+          "4"
+        ],
+        [
+          "Marzo 2025",
+          "Altre spese",
+          "84 €",
+          "2"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-spese",
+      "title": "Registro spese",
+      "description": "Elenco delle spese di trasferta, con ricerca e filtri per mese, categoria e stato.",
+      "metrics": [
+        {
+          "label": "Spese registrate",
+          "value": "18"
+        },
+        {
+          "label": "Da verificare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Categoria",
+        "Descrizione",
+        "Destinazione",
+        "Importo",
+        "Mese",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "03/01/2025",
+          "Trasporti",
+          "Treno per incontro",
+          "Lumoporto",
+          "86 €",
+          "Gennaio 2025",
+          "Verificata"
+        ],
+        [
+          "04/01/2025",
+          "Pasti",
+          "Cena di trasferta",
+          "Lumoporto",
+          "42 €",
+          "Gennaio 2025",
+          "Verificata"
+        ],
+        [
+          "05/01/2025",
+          "Alloggio",
+          "Pernottamento",
+          "Lumoporto",
+          "182 €",
+          "Gennaio 2025",
+          "Da verificare"
+        ],
+        [
+          "12/01/2025",
+          "Trasporti",
+          "Navetta locale",
+          "Velacampo",
+          "38 €",
+          "Gennaio 2025",
+          "Verificata"
+        ],
+        [
+          "14/01/2025",
+          "Pasti",
+          "Pranzo di trasferta",
+          "Velacampo",
+          "31 €",
+          "Gennaio 2025",
+          "Verificata"
+        ],
+        [
+          "19/01/2025",
+          "Altre spese",
+          "Materiali di viaggio",
+          "Velacampo",
+          "46 €",
+          "Gennaio 2025",
+          "Da verificare"
+        ],
+        [
+          "02/02/2025",
+          "Trasporti",
+          "Treno per sopralluogo",
+          "Nubipiana",
+          "104 €",
+          "Febbraio 2025",
+          "Verificata"
+        ],
+        [
+          "03/02/2025",
+          "Alloggio",
+          "Pernottamento",
+          "Nubipiana",
+          "219 €",
+          "Febbraio 2025",
+          "Verificata"
+        ],
+        [
+          "04/02/2025",
+          "Pasti",
+          "Cena di trasferta",
+          "Nubipiana",
+          "48 €",
+          "Febbraio 2025",
+          "Da verificare"
+        ],
+        [
+          "09/02/2025",
+          "Trasporti",
+          "Trasporto locale",
+          "Lumoporto",
+          "57 €",
+          "Febbraio 2025",
+          "Verificata"
+        ],
+        [
+          "11/02/2025",
+          "Pasti",
+          "Pranzo di trasferta",
+          "Lumoporto",
+          "36 €",
+          "Febbraio 2025",
+          "Verificata"
+        ],
+        [
+          "17/02/2025",
+          "Altre spese",
+          "Materiali di viaggio",
+          "Velacampo",
+          "54 €",
+          "Febbraio 2025",
+          "Verificata"
+        ],
+        [
+          "01/03/2025",
+          "Trasporti",
+          "Treno per riunione",
+          "Velacampo",
+          "92 €",
+          "Marzo 2025",
+          "Verificata"
+        ],
+        [
+          "03/03/2025",
+          "Alloggio",
+          "Pernottamento",
+          "Velacampo",
+          "164 €",
+          "Marzo 2025",
+          "Da verificare"
+        ],
+        [
+          "05/03/2025",
+          "Pasti",
+          "Cena di trasferta",
+          "Velacampo",
+          "44 €",
+          "Marzo 2025",
+          "Verificata"
+        ],
+        [
+          "10/03/2025",
+          "Trasporti",
+          "Navetta locale",
+          "Nubipiana",
+          "61 €",
+          "Marzo 2025",
+          "Verificata"
+        ],
+        [
+          "12/03/2025",
+          "Pasti",
+          "Pranzo di trasferta",
+          "Nubipiana",
+          "33 €",
+          "Marzo 2025",
+          "Verificata"
+        ],
+        [
+          "18/03/2025",
+          "Altre spese",
+          "Materiali di viaggio",
+          "Lumoporto",
+          "39 €",
+          "Marzo 2025",
+          "Verificata"
+        ]
+      ],
+      "form": [
+        "Data",
+        "Categoria",
+        "Descrizione",
+        "Destinazione",
+        "Importo",
+        "Mese",
+        "Stato"
+      ]
+    },
+    {
+      "id": "totali-mensili",
+      "title": "Totali mensili",
+      "description": "Confronta l'importo complessivo e il numero di spese registrate per ciascun mese.",
+      "metrics": [
+        {
+          "label": "Mesi riepilogati",
+          "value": "3"
+        },
+        {
+          "label": "Media mensile",
+          "value": "1.578 €"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Importo totale",
+        "Numero spese",
+        "Categoria principale",
+        "Importo categoria principale"
+      ],
+      "rows": [
+        [
+          "Gennaio 2025",
+          "1.069 €",
+          "15",
+          "Trasporti",
+          "428 €"
+        ],
+        [
+          "Febbraio 2025",
+          "1.274 €",
+          "18",
+          "Trasporti",
+          "512 €"
+        ],
+        [
+          "Marzo 2025",
+          "1.024 €",
+          "13",
+          "Trasporti",
+          "396 €"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "totali-categorie",
+      "title": "Totali per categoria",
+      "description": "Consulta la ripartizione delle spese per categoria e mese, utile per individuare le voci principali.",
+      "metrics": [
+        {
+          "label": "Categorie attive",
+          "value": "4"
+        },
+        {
+          "label": "Categoria più costosa",
+          "value": "Trasporti"
+        }
+      ],
+      "columns": [
+        "Categoria",
+        "Mese",
+        "Importo totale",
+        "Numero spese",
+        "Quota mensile"
+      ],
+      "rows": [
+        [
+          "Trasporti",
+          "Gennaio 2025",
+          "428 €",
+          "6",
+          "40,0%"
+        ],
+        [
+          "Alloggio",
+          "Gennaio 2025",
+          "365 €",
+          "2",
+          "34,1%"
+        ],
+        [
+          "Pasti",
+          "Gennaio 2025",
+          "184 €",
+          "5",
+          "17,2%"
+        ],
+        [
+          "Altre spese",
+          "Gennaio 2025",
+          "92 €",
+          "2",
+          "8,6%"
+        ],
+        [
+          "Trasporti",
+          "Febbraio 2025",
+          "512 €",
+          "7",
+          "40,2%"
+        ],
+        [
+          "Alloggio",
+          "Febbraio 2025",
+          "438 €",
+          "3",
+          "34,4%"
+        ],
+        [
+          "Pasti",
+          "Febbraio 2025",
+          "216 €",
+          "6",
+          "16,9%"
+        ],
+        [
+          "Altre spese",
+          "Febbraio 2025",
+          "108 €",
+          "2",
+          "8,5%"
+        ],
+        [
+          "Trasporti",
+          "Marzo 2025",
+          "396 €",
+          "5",
+          "38,7%"
+        ],
+        [
+          "Alloggio",
+          "Marzo 2025",
+          "328 €",
+          "2",
+          "32,0%"
+        ],
+        [
+          "Pasti",
+          "Marzo 2025",
+          "172 €",
+          "4",
+          "16,8%"
+        ],
+        [
+          "Altre spese",
+          "Marzo 2025",
+          "84 €",
+          "2",
+          "8,2%"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
